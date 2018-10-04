@@ -8,6 +8,9 @@
     
     <string name="available_game_1">You have </string>
     <string name="available_game_2"> gold.</string>
+    <string name="banner_id">/93656639/59123768</string>
+    <string name="interstitial_id">/93656639/75461328</string>
+    <string name="video_id">/93656639/29341687</string>
     
     <!--<string name="buy_game_text_1">Bạn có muốn mua 30.000 xu bằng tin nhắn giá 15.000 đồng không?\nNhấn "khác" để được mua ưu đãi hơn!</string>-->
     <!---->

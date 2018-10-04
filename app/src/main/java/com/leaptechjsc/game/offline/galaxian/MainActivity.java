@@ -6,13 +6,19 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
+import com.google.android.gms.ads.doubleclick.PublisherAdView;
 import com.leaptechjsc.game.offline.galaxian.R;
 
 public class MainActivity extends Activity {
@@ -33,7 +39,14 @@ public class MainActivity extends Activity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.main);
 
+		PublisherAdView adView = new PublisherAdView(this);
+//		adView.setBackgroundColor(Color.BLACK);
+		adView.setAdSizes(AdSize.BANNER);
+		adView.setAdUnitId(String.valueOf(R.string.banner_id));
+		adView.loadAd(new PublisherAdRequest.Builder().addTestDevice("F8F696DA2727EFA792F5159C8FEA0E18").build());
 
+		LinearLayout layout = findViewById(R.id.layout_main);
+		layout.addView(adView);
     }
     
     public void onPause() {

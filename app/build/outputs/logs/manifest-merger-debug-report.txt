@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
+ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/3c0cc4416bfc6c278eae44da757f8280/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:customtabs:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/63a13e7dfe1ab5a16e104481576b1473/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/afc01d0f34a321462d9d63c313be28fd/AndroidManifest.xml:17:1-36:12
@@ -18,9 +18,9 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/dangtruongson
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a8528489d8ee49f38ac1bb020e145046/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fde8418b07ca0ef475ec01d82b37129d/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:3:5-52
 		INJECTED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml
@@ -104,7 +104,7 @@ MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/dangtr
 original-package
 ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:16:5-25
 application
-ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:18:5-64:19
+ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:18:5-77:19
 MERGED from [com.android.support:customtabs:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/63a13e7dfe1ab5a16e104481576b1473/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:customtabs:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/63a13e7dfe1ab5a16e104481576b1473/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/afc01d0f34a321462d9d63c313be28fd/AndroidManifest.xml:26:5-34:19
@@ -197,14 +197,24 @@ ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidM
 		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:56:13-56
 	android:name
 		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:53:13-73
-activity#com.leaptechjsc.game.offline.galaxian.HighScoreActivity
-ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:59:9-62:20
-	android:screenOrientation
-		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:61:13-49
-	android:theme
-		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:60:13-60
+meta-data#com.google.android.gms.ads.93656639/59123768
+ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:65:9-67:35
+	android:value
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:67:13-33
 	android:name
-		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:59:19-89
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:66:13-72
+meta-data#com.google.android.gms.ads./93656639/75461328
+ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:69:9-71:35
+	android:value
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:71:13-33
+	android:name
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:70:13-73
+meta-data#com.google.android.gms.ads./93656639/29341687
+ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:73:9-75:35
+	android:value
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:75:13-33
+	android:name
+		ADDED from /Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/AndroidManifest.xml:74:13-73
 meta-data#android.support.VERSION
 ADDED from [com.android.support:customtabs:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/63a13e7dfe1ab5a16e104481576b1473/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5dd1818a09bcd10b2e607a03ec13e187/AndroidManifest.xml:26:9-28:38

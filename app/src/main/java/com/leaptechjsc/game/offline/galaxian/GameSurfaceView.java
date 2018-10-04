@@ -257,8 +257,11 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
 					AirCraft.setState(true);
 					this.Free();
 					activity.finish();
-					Intent i = new Intent(getContext(), HighScoreActivity.class);
-					context.startActivity(i);
+//					Intent i = new Intent(getContext(), HighScoreActivity.class);
+//					context.startActivity(i);
+
+					//load full man
+					activity.showInterstitialAd();
 				}
 			}; break;
 		}

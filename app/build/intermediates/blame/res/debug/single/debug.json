@@ -8,12 +8,12 @@
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/r.png"
     },
     {
-        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/drawable/notification_icon_background.xml"
-    },
-    {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable_style_buttondownload.xml.flat",
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable/style_buttondownload.xml"
+    },
+    {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
@@ -72,12 +72,12 @@
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/nv.png"
     },
     {
-        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/layout/notification_action.xml"
-    },
-    {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_ruoixanh_hieuung.png.flat",
@@ -92,12 +92,12 @@
         "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b2a72960567fcc0df660bd319ca1dd37/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_nextlevel.png.flat",
-        "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/nextlevel.png"
-    },
-    {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_levelup.png.flat",
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/levelup.png"
+    },
+    {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_nextlevel.png.flat",
+        "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/nextlevel.png"
     },
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
@@ -292,6 +292,10 @@
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/raw/tiengno.mp3"
     },
     {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_xem_video2.png.flat",
+        "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/xem_video2.png"
+    },
+    {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_mua2.png.flat",
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/mua2.png"
     },
@@ -306,6 +310,10 @@
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_mua1.png.flat",
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/mua1.png"
+    },
+    {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_xem_video1.png.flat",
+        "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable-hdpi/xem_video1.png"
     },
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable-hdpi_info2.png.flat",
@@ -450,6 +458,10 @@
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/layout_setting.xml.flat",
         "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/layout/setting.xml"
+    },
+    {
+        "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable_style_button_view.xml.flat",
+        "source": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/src/main/res/drawable/style_button_view.xml"
     },
     {
         "merged": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/res/merged/debug/drawable_style_buttonbuy.xml.flat",

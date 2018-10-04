@@ -11,6 +11,10 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
+import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
+
 public class GameActivity extends Activity {
 	
 	GameSurfaceView gsv;
@@ -18,6 +22,8 @@ public class GameActivity extends Activity {
 	DialogInterface.OnClickListener dialogClickListener = null;
 	
 	private WakeLock wl;
+
+	private PublisherInterstitialAd mPublisherInterstitialAd;
 	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +35,41 @@ public class GameActivity extends Activity {
         Display display = this.getWindow().getWindowManager().getDefaultDisplay();
         gsv = new GameSurfaceView(this, this, display.getWidth(), display.getHeight());
         setContentView(gsv);
+
+		mPublisherInterstitialAd = new PublisherInterstitialAd(this);
+		mPublisherInterstitialAd.setAdUnitId(String.valueOf(R.string.interstitial_id));
+
+		mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().addTestDevice("F8F696DA2727EFA792F5159C8FEA0E18").build());
+		mPublisherInterstitialAd.setAdListener(new AdListener() {
+			@Override
+			public void onAdLoaded() {
+				// Code to be executed when an ad finishes loading.
+			}
+
+			@Override
+			public void onAdFailedToLoad(int errorCode) {
+				// Code to be executed when an ad request fails.
+
+				mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().addTestDevice("F8F696DA2727EFA792F5159C8FEA0E18").build());
+			}
+
+			@Override
+			public void onAdOpened() {
+				// Code to be executed when the ad is displayed.
+			}
+
+			@Override
+			public void onAdLeftApplication() {
+				// Code to be executed when the user has left the app.
+			}
+
+			@Override
+			public void onAdClosed() {
+				// Code to be executed when when the interstitial ad is closed.
+
+				mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().addTestDevice("F8F696DA2727EFA792F5159C8FEA0E18").build());
+			}
+		});
     }
     
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -77,4 +118,14 @@ public class GameActivity extends Activity {
     	super.onResume();
     	if (gsv != null) gsv.timertaskResume();
     }
+
+public void showInterstitialAd(){
+	if (mPublisherInterstitialAd.isLoaded()) {
+		mPublisherInterstitialAd.show();
+	} else if(mPublisherInterstitialAd.isLoading()){
+//		Log.d("TAG", "The interstitial wasn't loaded yet.");
+	}else{
+		mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().addTestDevice("F8F696DA2727EFA792F5159C8FEA0E18").build());
+	}
+}
 }

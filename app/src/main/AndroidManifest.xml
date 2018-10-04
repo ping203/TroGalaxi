@@ -56,10 +56,23 @@
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         
-        <activity android:name="com.leaptechjsc.game.offline.galaxian.HighScoreActivity"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait">
-        </activity>
+        <!--<activity android:name="com.leaptechjsc.game.offline.galaxian.HighScoreActivity"-->
+            <!--android:theme="@android:style/Theme.NoTitleBar"-->
+            <!--android:screenOrientation="portrait">-->
+        <!--</activity>-->
+
+        <!--Rewarded-->
+        <meta-data
+            android:name="com.google.android.gms.ads.93656639/59123768"
+            android:value="true"/>
+        <!--Interstitial-->
+        <meta-data
+            android:name="com.google.android.gms.ads./93656639/75461328"
+            android:value="true"/>
+        <!--Banner-->
+        <meta-data
+            android:name="com.google.android.gms.ads./93656639/29341687"
+            android:value="true"/>
 
     </application>
 

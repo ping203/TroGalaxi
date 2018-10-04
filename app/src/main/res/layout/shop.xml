@@ -51,11 +51,11 @@
         android:layout_width="fill_parent"
         android:layout_height="60sp"
         android:orientation="horizontal"
-        android:padding="10dp" >
+        android:padding="5dp" >
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="60sp"
+            android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/nv_shop" />
@@ -73,10 +73,10 @@
         
         <TextView
             android:id="@+id/lifecost"
-            android:layout_width="60sp"
+            android:layout_width="50sp"
             android:layout_height="60sp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10sp"
+            android:layout_marginLeft="30sp"
             android:gravity="center"
             android:text="300 Point"
             android:textColor="@color/text_color"
@@ -88,10 +88,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="30sp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/style_buttonbuy"
             android:gravity="center"
             android:onClick="b_click_BuyLife"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/button_video_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4sp"
+            android:background="@drawable/style_button_view"
+            android:gravity="center"
+            android:onClick="b_click_BuyLife_video"
             android:textColor="@color/text_color"
             android:textSize="20sp" />
 
@@ -106,8 +117,8 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="60sp"
-            android:layout_height="60sp"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/bullet_shop" />
 
@@ -124,10 +135,10 @@
 
         <TextView
             android:id="@+id/bulletcost"
-            android:layout_width="60sp"
+            android:layout_width="50sp"
             android:layout_height="60sp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10sp"
+            android:layout_marginLeft="30sp"
             android:gravity="center"
             android:text="300 Point"
             android:textColor="@color/text_color"
@@ -139,10 +150,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="30sp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/style_buttonbuy"
             android:gravity="center"
             android:onClick="b_click_BuyBullet"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_video_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4sp"
+            android:background="@drawable/style_button_view"
+            android:gravity="center"
+            android:onClick="b_click_BuyBullet_video"
             android:textColor="@color/text_color"
             android:textSize="20sp" />
 
@@ -157,8 +180,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="60sp"
-            android:layout_height="60sp"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/rocket_shop" />
         
@@ -176,10 +199,10 @@
 
         <TextView
             android:id="@+id/rocketcost"
-            android:layout_width="60sp"
+            android:layout_width="50sp"
             android:layout_height="60sp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10sp"
+            android:layout_marginLeft="30sp"
             android:gravity="center"
             android:text="300 Point"
             android:textColor="@color/text_color"
@@ -191,11 +214,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="30sp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/style_buttonbuy"
             android:gravity="center"
             android:lines="1"
             android:onClick="b_click_BuyRocket"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_video_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4sp"
+            android:background="@drawable/style_button_view"
+            android:gravity="center"
+            android:lines="1"
+            android:onClick="b_click_BuyRocket_video"
             android:textColor="@color/text_color"
             android:textSize="20sp" />
 
@@ -217,6 +253,15 @@
 		    android:onClick="b_click_NextLevel"
 		    android:textColor="@color/text_color"
 		    android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_ad_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:orientation="vertical" >
 
     </LinearLayout>
 	    

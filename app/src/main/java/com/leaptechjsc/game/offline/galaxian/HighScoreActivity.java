@@ -119,7 +119,7 @@ public class HighScoreActivity extends Activity{// implements IQplayHighScore, I
 					}
 				}
 			};
-			createDialog("Bạn muốn thoát?");
+			createDialog("Do you want exit?");
 			break;
 		}
 		return super.onKeyDown(keyCode, event);
