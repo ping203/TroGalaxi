@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/78537553ccf180730d0f85039f157461/res/values-en-rGB/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "196",
+                        "endOffsets": "447"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "196",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/3c0cc4416bfc6c278eae44da757f8280/res/values-en-rGB/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "201,268,369,433,498,577,671",
+                        "endColumns": "66,100,63,64,78,93,64",
+                        "endOffsets": "267,368,432,497,576,670,735"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "302,373,478,546,615,698,796",
+                        "endColumns": "70,104,67,68,82,97,68",
+                        "endOffsets": "368,473,541,610,693,791,860"
+                    }
+                },
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "865",
+                        "endColumns": "100",
+                        "endOffsets": "961"
+                    }
+                }
+            ]
+        }
+    ]
+}

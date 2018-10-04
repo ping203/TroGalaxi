@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Shop"
+            android:textColor="@color/text_color"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    
+
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="20sp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/xu"
+            android:layout_width="200sp"
+            android:layout_height="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Point"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/nv_shop" />
+
+        <TextView
+            android:id="@+id/life"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="life"
+            android:textColor="@color/text_color"
+            android:textSize="30sp" />
+        
+        <TextView
+            android:id="@+id/lifecost"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="300 Point"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />        
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:background="@drawable/style_buttonbuy"
+            android:gravity="center"
+            android:onClick="b_click_BuyLife"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:src="@drawable/bullet_shop" />
+
+        <TextView
+            android:id="@+id/bullet"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="bull"
+            android:textColor="@color/text_color"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bulletcost"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="300 Point"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+        
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:background="@drawable/style_buttonbuy"
+            android:gravity="center"
+            android:onClick="b_click_BuyBullet"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:src="@drawable/rocket_shop" />
+        
+
+        <TextView
+            android:id="@+id/rocket"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="rock"
+            android:textColor="@color/text_color"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/rocketcost"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:text="300 Point"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30sp"
+            android:background="@drawable/style_buttonbuy"
+            android:gravity="center"
+            android:lines="1"
+            android:onClick="b_click_BuyRocket"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:padding="30dp" >
+
+		<Button 
+		    android:id="@+id/button5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="50sp"
+		    android:background="@drawable/style_buttonnext"
+		    android:layout_gravity="center"
+		    android:onClick="b_click_NextLevel"
+		    android:textColor="@color/text_color"
+		    android:textSize="20sp" />
+
+    </LinearLayout>
+	    
+</LinearLayout>

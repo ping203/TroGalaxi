@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.leaptechjsc.game.offline.galaxian"
+        minSdkVersion 14
+        targetSdkVersion 27
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+//    implementation files('libs/GoogleAdMobAdsSdk-4.1.1.jar')
+//    implementation files('libs/libGoogleAnalytics.jar')
+}

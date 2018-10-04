@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dangtruongson/Documents/GameOut/BanRuoi1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
+            "map": [
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/78537553ccf180730d0f85039f157461/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                },
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/3c0cc4416bfc6c278eae44da757f8280/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,264,368,435,498,579,681",
+                        "endColumns": "66,103,66,62,80,101,73",
+                        "endOffsets": "263,367,434,497,578,680,754"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,364,472,543,610,695,801",
+                        "endColumns": "70,107,70,66,84,105,77",
+                        "endOffsets": "359,467,538,605,690,796,874"
+                    }
+                },
+                {
+                    "source": "/Users/dangtruongson/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/dfc95111ac84e8e5532a562b9070081b/res/values-is/values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "879",
+                        "endColumns": "100",
+                        "endOffsets": "975"
+                    }
+                }
+            ]
+        }
+    ]
+}

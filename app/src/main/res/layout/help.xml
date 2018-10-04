@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip"
+	android:background="#12820a"
+	>
+	
+	<TextView
+		android:id="@+id/help_wc"
+		android:layout_width="wrap_content"		
+		android:layout_height="wrap_content"		
+		android:text="
+		Use arrow keys to move the target, then press SPACE or CENTER to select the power. Press SPACE or CENTER twice to kick.
+		
+		\n			Your score will be depended by the ball slided on the power bar then the score will be added by 1, 2 or 3 points.
+		
+		\n			If the goalkeeper save the goal then your ball left will be subtracted by 1. And if your ball is running out, your game is over." 
+		android:textSize="20sp"
+		android:textColor="#ffffff"
+		/>					
+</ScrollView>

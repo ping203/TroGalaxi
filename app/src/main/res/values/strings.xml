@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="playername">USER</string>
+    <string name="score">SCORE</string>
+    <string name="LS_CLOSE">Close</string>
+    <string name="app_name">Galaxian</string>
+    
+    <string name="available_game_1">You have </string>
+    <string name="available_game_2"> gold.</string>
+    
+    <!--<string name="buy_game_text_1">Bạn có muốn mua 30.000 xu bằng tin nhắn giá 15.000 đồng không?\nNhấn "khác" để được mua ưu đãi hơn!</string>-->
+    <!---->
+	<!--<string name="payment_title">Chọn hình thức thanh toán</string>-->
+	<!--<string name="payment_other">Khác</string>-->
+	<!--<string name="payment_do_scratch">Nạp thẻ</string>-->
+	<!--<string name="payment_description_coupon">Nhập mã số quà tặng để được hưởng ưu đãi dịch vụ</string>-->
+	<!--<string name="payment_title_coupon">Thẻ quà tặng</string>-->
+     <!--<string name="payment_description_scratch" formatted="false">Đổi xu bằng thẻ cào&lt;br>-->
+    <!--10.000đ - 21.000xu &lt;font color=#00ff00>(+5%)&lt;/font>&lt;br>-->
+    <!--20.000đ - 44.000xu &lt;font color=#00ff00>(+10%)&lt;/font>&lt;br>-->
+    <!--50.000đ - 115.000xu &lt;font color=#00ff00>(+15%)&lt;/font>&lt;br>-->
+    <!--100.000đ - 240.000xu &lt;font color=#00ff00>(+20%)&lt;/font>&lt;br>-->
+    <!--200.000đ - 500.000xu &lt;font color=#00ff00>(+25%)&lt;/font>&lt;br>-->
+    <!--500.000đ - 1.300.000xu &lt;font color=#00ff00>(+30%)&lt;/font></string>-->
+	<!--<string name="payment_title_scratch">Nạp thẻ cào</string>-->
+	<!--<string name="payment_success_coupon">Nạp thẻ quà tặng thành công!</string>-->
+	<!--<string name="payment_failure_coupon">Nạp thẻ quà tặng thất bại!</string>-->
+	<!--<string name="payment_success_scratch">Nạp thẻ cào thành công!</string>-->
+	<!--<string name="payment_failure_scratch">Nạp thẻ cào thất bại!</string>-->
+	<!--<string name="payment_success_sms">Gửi tin nhắn thành công!</string>-->
+	<!--<string name="payment_failure_sms">Gửi tin nhắn thất bại!</string>-->
+   	<!---->
+   	<!--<string name="payment_label_coupon_code">Mã số</string>-->
+	<!--<string name="payment_label_coupon_hint">Nhập mã số thẻ quà tặng</string>-->
+	<!--<string name="payment_label_coupon_description">Nhập mã số thẻ quà tặng để được hưởng ưu đãi dịch vụ</string>-->
+	<!---->
+	<!--<string name="payment_label_scratch_code">Mã số</string>-->
+	<!--<string name="payment_label_scratch_code_hint">Nhập mã số thẻ cào</string>-->
+	<!--<string name="payment_label_scratch_seri">Số seri</string>-->
+	<!--<string name="payment_label_scratch_seri_hint">Nhập số seri in trên thẻ</string>-->
+	<!--<string name="payment_label_scratch_operator">Loại thẻ</string>-->
+	<!---->
+	<!--<string name="title_share">Chia sẻ game</string>-->
+    <!--<string name="message_share_title">Bạn có muốn giới thiệu game này cho người thân không?</string>-->
+    <!--<string name="message_share_subject">Chơi game này đi, game này hay lắm</string>-->
+    <!--<string name="message_share_content">Game đào vàng này chơi hay lắm, tải ở đây này: </string>-->
+    <!---->
+    <!--<string name="title_download">Tải hot game</string>-->
+    <!--<string name="message_download_title">Bạn có muốn tải hot game khác không?</string>-->
+	
+</resources>
